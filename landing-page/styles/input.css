@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    /* border: 1px solid #000 !important; */
+}
+body{
+    background-color:rgb(245, 248, 250);
+}
+.bg1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                url('https://img.freepik.com/free-photo/cement-street-financial-downtown-shanghai-travel_1417-886.jpg?w=900&t=st=1694359144~exp=1694359744~hmac=e9f2c7448b84085a7e5ab453ce1017e706dc3d541449ba3ca050b3dc7584ee69');
+    background-size: cover;
+}
+.bg2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                url('/assets/bg.jpg');
+    background-size: cover !important;
+    
+}
+
+.font {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+html{
+    scroll-behavior: smooth !important;
+
+}

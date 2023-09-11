@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <!-- Tailwind css cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- css icons -->
+    <!-- css.gg -->
+    <link href="https://css.gg/css" rel="stylesheet" />
+
+    <!-- UNPKG -->
+    <link href="https://unpkg.com/css.gg/icons/icons.css" rel="stylesheet" />
+
+    <!-- JSDelivr -->
+    <link href="https://cdn.jsdelivr.net/npm/css.gg/icons/icons.css" rel="stylesheet" />
+    <!-- cusotm css -->
+    <link rel="stylesheet" href="./styles/input.css">
+</head>
+<style>
+    .font {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+    
+</style>
+
+<body>
+    <div class="flex w-full px-5 justify-between items-center bg-blue-500">
+
+        <div class="text-3xl text-white">
+            <span class="font-semibold text-cyan-100">T</span>ech<span class="font-semibold text-cyan-100">R</span>ent
+        </div>
+
+        <div class="flex justify-center space-x-20 h-auto py-3 mr-10 text-white items-center ">
+            <div class="  hover:border-b-2 h-7 font-semibold "><a href="/index.html">Home</a> </div>
+            <div class="  hover:border-b-2 h-7 font-semibold">
+                <a href="#services">Services</a>
+
+            </div>
+            <div class="  hover:border-b-2 h-7 font-semibold"><a href="#value">About us</a> </div>
+            <div class="  hover:border-b-2 h-7 font-semibold"><a href="/index.html">Contact</a> </div>
+        </div>
+
+        <div class="cursor-pointer flex items-center justify-between space-x-3 ">
+            <!-- <input type="text" class="rounded-md pl-2 outline-none flex items-center py-1" placeholder="search here"> -->
+            <!-- <div class="h-6 border rounded-md"></div> -->
+            <div class="space-x-4 flex justify-center items-center">
+            <i class="gg-search text-white "></i>
+            <div class="border-white border h-7"></div>
+            <i class="gg-profile text-white "></i>
+            </div>
+        </div>
+    </div>
+    <!-- after  navbar -->
+    <div class="h-screen  bg1 flex items-center justify-center">
+        <div class=" mt-1 font flex justify-between space-x-10 h-max">
+            <div class="pl-5">
+                <h1 class="text-5xl text-blue-900 ">Welcome to <br> Tech Bike renting </h1>
+                <p class="text-white pl-1 mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores delectus autem distinctio, debitis
+                    ex laudantium possimus ratione. Dignissimos rem illo dolore corporis ipsum? Aliquid perspiciatis
+                    corporis maiores soluta voluptates tempora.</p>
+                    <a href="#services" class="flex text-white px-3 py-2 w-max bg-blue-600 mt-3 rounded-md hover:bg-blue-900">
+                        Explore 
+                        <i class="gg-chevron-down"></i>
+                    </a>
+            </div>
+            <img src="./assets/bike.png" alt="bike.png" class="w-96 -scale-x-100 ">
+        </div>
+    </div>
+    <!-- Our services -->
+    <div class="h-auto" id="services">
+        <div class="flex-col items-center justify-center ">
+            <h1 class="text-center text-4xl font my-5 font-bold text-blue-900 ">We Offer </h1>
+            <div class="flex w-full  bg-blue-900  text-stone-900  py-10 justify-center text-white  ">
+                <div class="mx-20 w-[30%] ">
+                    <div class="flex justify-center">
+                        <Img src="./assets//bike.png" class="rounded-md h-64 "></Img>
+                    </div>
+                    <h1 class="text-2xl text-center font-semibold mt-3">Vast categories of bikes</h1>
+                    <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet aliquam dolorem vel expedita nam voluptatum laborum neque, illo omnis ipsam modi, doloribus quisquam, est itaque quos unde rem eaque iusto!</p>
+                </div>
+
+                <div class="mx-20 w-[30%]">
+                    <div class="flex justify-center">
+                        <Img src="./assets//quick.png" class="rounded-md h-64"></Img>
+                    </div>
+                    <h1 class="text-2xl text-center font-semibold mt-3">On Time Delivery </h1>
+                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, quisquam molestiae delectus reiciendis est libero molestias, totam aliquid debitis quibusdam repellendus hic, alias minus asperiores? Quia nam eos veniam quae!</p>
+                </div>
+
+                <div class="mx-20 w-[30%]">
+                    <div class="flex justify-center">
+                        <Img src="./assets//ourrteam.png "class="rounded-md h-64" ></Img>
+                    </div>
+                    <h1 class="text-2xl text-center font-semibold mt-3">24/7 customer support</h1>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nulla repudiandae, autem, quidem sint aliquam non dolorem a nesciunt deleniti exercitationem ipsam vitae magnam nihil ab accusantium, ipsum natus! Voluptatibus.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- We Value  -->
+    <div class="mt-10">
+        <div class="flex w-[80%] mx-auto justify-center items-center space-x-10">
+
+            <div class="flex-col flex justify-center">
+                
+                <h1 class="text-5xl font-semibold font  text-blue-900 mb-5">We Value Your life</h1>
+                <p>"That is why our commitment goes beyond just products and services; it's about valuing your life and ensuring your safety. Just as we meticulously maintain our bikes to keep them in perfect condition, we prioritize your well-being with the same dedication. We understand that life's journey is a precious one, and our mission is to provide you with the assurance and support you need, every step of the way. Trust us to keep your path smooth and your ride secure, because at techRent, your life matters."</p>
+            </div>
+
+            <div class="h-80 border border-black"></div>
+
+            <img src="assets/biker.png" alt="" class="w-96 h-[500px]">
+
+        </div>
+    </div>
+    <div>
+        
+<footer class="bg-white rounded-lg shadow m-4 dark:bg-gray-800 " id="value">
+    <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+      <p>All Right Reserved @ TechRent.com</p>
+    </span>
+    <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+        <li>
+            <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
+        </li>
+        <li>
+            <a href="#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+        </li>
+        <li>
+            <a href="#" class="mr-4 hover:underline md:mr-6">Social</a>
+        </li>
+        <li>
+            <a href="#" class="hover:underline">Contact</a>
+        </li>
+    </ul>
+    </div>
+</footer>
+
+    </div>
+   
+
+
+</body>
+
+</html>
