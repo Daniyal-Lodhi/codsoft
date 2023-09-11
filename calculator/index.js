@@ -7,7 +7,8 @@ const handleBtnClick = (target)=>{
 const showResult = ()=>{
     let input = document.getElementById('input')
     const InpValue = input.value
-    console.log(eval(InpValue))
+    const result = eval(InpValue)
+    input.value = result
 }
 
 const clearAll = ()=>{
